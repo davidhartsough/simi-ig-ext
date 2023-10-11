@@ -11,17 +11,12 @@
   },
   "content_scripts": [
     {
-      "css": ["simi-ig-home.css"],
       "js": ["simi-ig.js"],
       "matches": ["https://www.instagram.com/"]
     },
     {
       "css": ["simi-ig.css"],
       "matches": ["https://www.instagram.com/*"]
-    },
-    {
-      "css": ["simi-ig-past.css"],
-      "matches": ["https://www.instagram.com/?variant=past_posts"]
     }
   ]
 }
