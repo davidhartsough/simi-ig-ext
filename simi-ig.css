@@ -1,0 +1,6 @@
+div>span>div>a[href="/explore/"][role="link"],
+div>span>div>a[href="/reels/"][role="link"],
+div>span>div>a[href="https://www.threads.net/"][role="link"]
+{
+  display: none;
+}

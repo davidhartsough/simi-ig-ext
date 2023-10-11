@@ -1,0 +1,11 @@
+section > main article {
+  padding: 100px 0 200px;
+}
+section > main article:first-child:last-child {
+  padding: 0;
+}
+@media screen and (min-width: 1160px) {
+  div div div > section > main > div:first-child > div:last-child:nth-child(2) {
+    display: none;
+  }
+}
